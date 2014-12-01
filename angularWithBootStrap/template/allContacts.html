@@ -1,0 +1,33 @@
+<h4>View All contacts</h4>
+<h5>Search contacts</h5>
+
+<form action="" class="fom-inline" role="form">
+	<div class="form-group">
+		<label for="textsearchbox" class="sr-only">Enter Name</label>
+		<input type="text" name="" id="txtsearchbox" class="form-control" placeholder="Enter name" ng-model="searchText.name">
+	</div>	
+
+	<div class="table-responsive">
+		<table class="table table-stripped table-hover">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Email</th>
+					<th>Action</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><a href="">Contact Name</a></td>
+					<td><a href="">Email</a></td>
+					<td>	
+						<a href="#/view-contacts" class="btn btn-primary">Edit</a>
+						<input type="button" value="Delete" class="btn btn-primary">
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		
+	</div>
+
+</form>

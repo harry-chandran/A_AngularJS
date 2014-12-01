@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html  ng-app="contactsApp">
+<head>
+<meta charset="utf-8" />
+<title>AngularJS with BootStrap</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+ 
+<body>
+
+
+	<div class="container">		
+		<div class="header">
+			<ul class="nav nav-pills pull-right">
+				<li><a href="#all-contacts">All Contacts</a></li>
+				<li><a href="#add-contacts">Add Contacts</a></li>
+			</ul>
+				<h3>Address Book</h3>
+		</div>
+		<hr>
+		<div ng-view></div>
+		<hr>
+		<div class="footer">
+			<p>&copy; Address book 2014</p>
+		</div>
+	</div>
+
+
+	<script src="js/lib/jquery-1.9.1.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.24/angular.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.10/angular-route.min.js"></script>	
+	
+	<script src="js/lib/bootstrap.min.js"></script>	
+	<script src="js/app.js"></script>
+
+</body>
+</html>
